@@ -1,0 +1,18 @@
+###
+
+GET http://localhost:5000/getimg
+
+###
+POST http://localhost:5000/click
+content-type: application/json
+
+{
+    "click":{
+        "is_postive": true,
+        "coords_x": 220,
+        "coords_y": 160
+    } 
+}
+
+###
+POST http://localhost:5000/train
